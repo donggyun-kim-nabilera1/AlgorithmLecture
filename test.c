@@ -1,3 +1,5 @@
+//음수의 순위를 표기해보자.
+
 #include<stdio.h>
 #define Num 10
 #define Max 36
@@ -6,7 +8,7 @@
 
 int main()
 {
-    static int a[]={-3,2,3,-1,-2,-6,2,-1,1,5};
+    static int a[]={-3,2,3,-1,-2,-6,2,-1,1,5};//음수
     int i, rank[Max+Bias+1];
 
     for(i=Min+Bias; i<=Max+Bias;i++)
